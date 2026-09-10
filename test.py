@@ -11,8 +11,13 @@
 # age_in_days = age_in_years * 365
 # print(f'Age in years {age_in_years} = {age_in_days} days')
 
-# 3. WAP to covert minutes into hours and print it. OUTPUT: 135 is 2 hours and 15 minutes
-minutes = int(input("Enter minutes: "))
-hours = minutes / 60
-remaining_minutes = minutes % 60
-print(f'{minutes} is {int(hours)} hours and {remaining_minutes} minutes')
+# # 3. WAP to covert minutes into hours and print it. OUTPUT: 135 is 2 hours and 15 minutes
+# minutes = int(input("Enter minutes: "))
+# hours = minutes / 60
+# remaining_minutes = minutes % 60
+# print(f'{minutes} is {int(hours)} hours and {remaining_minutes} minutes')
+
+# 4. WAP to extract the last digit of a number. OUTPUT : 1234 : last digit is 4
+number = int(input("Enter a number: "))
+last_digit = number % 10
+print(f'{number} : last digit is {last_digit}')
